@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ME-I/css/estilo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="/ME-I/img/unitpe-logo.jpeg">
+            Cantina
+            <img src="/ME-I/img/portodigital-logo.jpeg">
+        </h1>
+        <h2>Formulário de Sugestões</h2>
+    </header>
+    <fieldset>
+        <legend>Identificação</legend>
+        Nome: <input type="text"><br><br>
+        Matrícula: <input type="text"><br><br>
+        CPF: <input type="text"><br><br>
+        Email pessoal: <input type="email"><br><br>
+        Email SouUnit: <input type="email"><br><br>
+        Sexo:
+        <select>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option selected>Prefiro não informar</option>
+        </select>
+        <br><br>
+        Ocupação:<br>
+        <input type="checkbox"><label>Estudante</label></input>
+        <input type="checkbox"><label>Professor</label></input>
+        <input type="checkbox"><label>Coordenador</label></input>
+        <input type="checkbox"><label>Colaborador</label></input>
+    </fieldset>
+    <fieldset>
+        <legend>Opiniões</legend>
+        Por favor, avaie a qualidade dos nossos serviços, dando notas de 1 a 5.<br><br>
+        Qualidade do lanche: <input type="range" min="1" max="5" value="1"><br>
+        Variedade: <input type="range" min="1" max="5" value="1"><br>
+        Tempo de espera: <input type="range" min="1" max="5" value="1"><br>
+        Higiene / Limpeza: <input type="range" min="1" max="5" value="1"><br>
+        Atendimento: <input type="range" min="1" max="5" value="1"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Sugestão</legend>
+        Data: <input type="date"><br><br>
+        <legend>Sugestão:</legend>
+        <textarea rows="10" cols="50"></textarea>    
+    </fieldset>
+    <input type="submit">
+    <input type="reset">
+</body>
+</html>
