@@ -1,0 +1,99 @@
+
+.cabecalho {
+    background-color: #333333;
+    width: 100%;
+    height: auto;  
+    text-align: justify; 
+     
+}
+
+.titulo {
+    font-family: 'Bahnschrift SemiBold';
+    font-size: 35px;
+    text-align: center; 
+    margin: 7rem auto; 
+      
+}
+
+.subtitulo {
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+    margin: auto auto 7em;
+
+}
+
+.equipe {
+    font-size: 24px;
+    color: #555;
+}
+
+.data {
+    font-size: 18px;
+    color: #555;
+    margin: auto auto 10em;
+    
+}
+
+hr {
+ width: 80%;
+ left: 30%;
+ right: 30%;
+ border-style: groove;
+ background-color: #333333
+}
+
+.assuntos {
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+    /*display: inline;*/   
+    letter-spacing: 1px;
+    line-height: 3rem; 
+    min-height: 100vh;
+    width: 50%;
+    margin: 7rem auto;
+    /*grid-template-columns: repeat(7, 1fr);*/   
+}
+
+.topicos {
+    color: #fc7700;
+    font-size: 33px;
+    font-family: 'Bookman Old Style'
+}
+
+.t1 {
+    font-weight: bold;
+    margin: 5rem auto;   
+}
+
+p a {
+    color: #fc7700;
+}
+
+.link {
+    text-align: center;
+    margin: 4rem auto;
+} 
+
+.logo {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.rodape {
+    text-align: left;
+    background-color: #333333;
+    margin: 2rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
