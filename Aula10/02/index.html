@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+</head>
+<script>
+    function acenderLampada(){
+        document.getElementById("Lampada").src="img/LampadaLigada.jpg"
+    }
+
+    function apagarLampada(){
+        document.getElementById("Lampada").src="img/LampadaDesligada.jfif"
+    }
+
+    function aumentarFonte(){
+        document.getElementById('teste').style.fontSize='55px'
+    }
+
+    function diminuirFonte(){
+        document.getElementById('teste').style.fontSize='16px'
+    }
+
+    function esconder(){
+        document.getElementById('Teste2').style.display='none'
+    }
+
+    function mostrar(){
+        document.getElementById('Teste2').style.display='block'
+    }
+
+    function escrever(){
+        document.write("Alguma coisa!")
+    }
+
+    function alerta(){
+        window.alert("Alguma coisa!!!")
+    }
+
+    function escreveConsole(){
+        console.log("Alguma coisa!")
+    }
+    function calcula(){
+        document.getElementById("resultado").innerHTML = 10 + 6
+    }
+</script>
+<body>
+    <h2>Acenda a lampada</h2>
+    
+    <img id="Lampada" src="/02/img/LampadaDesligada.jfif" width="300px" alt="Lâmpada">
+    <br>
+
+    <button type="button" onclick='acenderLampada()'>Ligar!</button>
+    <button type="button" onclick='apagarLampada()'>Desligar!</button>
+
+    <p id="teste">Mudando o CSS, Diogenes Carvalho Matias</p>
+    
+    <button type="button" onclick="aumentarFonte()">55 px</button>
+    <button type="button" onclick="diminuirFonte()">16 px</button>
+    <br><br>
+    <p id="Teste2" style="display:block">Escondendo elementos</p>
+    
+    <button type="button" onclick="esconder()">Esconder</button>
+    <button type="button" onclick="mostrar()">Mostrar</button>
+    <br><br>
+    <button type="button" onclick="escrever()">Escrever algo</button>
+    <button type="button" onclick="alerta()">Alerta</button>
+    <button type="button" onclick="escreveConsole()">No console</button>
+    <br>
+    <p id="resultado"></p>
+    <button type="button" onclick="calcula()">CALCULAR</button>
+</body>
+</html>
