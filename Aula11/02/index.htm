@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Statement</h2>
+
+    <p>Bloco de códigos Javascript são escritos entre <b>( )</b></p>
+
+    <button type="button" onclick="nossaFuncao()">Aqui!</button>
+
+    <p id="teste1"></p>
+    <p id="teste2"></p>
+
+    <img src="/02/img/Porta-Fechada.gif" id="porta" alt="">
+    
+    <script>
+        function nossaFuncao(){
+            document.getElementById("teste1").innerHTML = "Diogenes"
+            document.getElementById("teste2").innerHTML = "Como vai você?"
+
+            document.getElementById("porta").src="/02/img/Porta-Aberta.gif"
+        }
+    </script>
+</body>
+</html>

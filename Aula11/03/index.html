@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Scope</h2>
+    <p>Uma variável GLOBAL pode ser acessada de qualquer script ou função.</p>
+    <p id="teste"></p>
+
+    <script>
+        var carro = "Fusca"
+        minhaFuncao()
+
+        function minhaFuncao(){
+            document.getElementById("teste").innerHTML = "Veja o carro " + carro
+        }
+    </script>
+
+</body>
+</html>
