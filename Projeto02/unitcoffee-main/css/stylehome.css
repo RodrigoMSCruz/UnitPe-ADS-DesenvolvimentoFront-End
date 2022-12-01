@@ -1,0 +1,35 @@
+body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f29c0f;
+            text-align: center;
+            color: white;
+            min-height: 100vh;
+            min-width: 100vh;
+        }
+        .box{
+            position: absolute;
+            top: 62%;
+            left: 30%;
+            transform: translate(-50%,-50%);
+            background-color: rgb(41, 39, 39);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border: 3px solid rgb(rgb(26, 20, 20));
+            border-radius: 10px;
+            padding: 10px;  
+        }
+        a:hover{
+            background-color: rgb(141, 97, 15);  
+        }
+  
+
+@media screen and (max-width: 576px) {
+    .box{
+    flex-direction: column;
+    gap: 5px;
+    }
+}        
